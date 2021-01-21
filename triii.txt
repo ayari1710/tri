@@ -1,0 +1,14 @@
+procedure insertion (var array of integer )
+var 
+i,j , nouvelle: integer ;
+begin 
+for i from 1 to arr.length-1 do
+nouvelle := arr[i] ;
+j=i-1                    ;
+ WHILE (j >= 0 AND arr[j] > current) DO
+            arr[j+1] := arr[j];
+            j := j-1;
+        END_WHILE
+        arr[j+1] = current;
+    END_FOR
+END
